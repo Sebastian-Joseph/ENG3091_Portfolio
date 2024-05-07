@@ -1,0 +1,97 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #6B4D57;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #C9D5B5;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #896A67;
+}
+
+/* Welcome section styles */
+#welcome {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #13070C;
+    color: #C9D5B5;
+}
+
+#welcome h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#welcome p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Portfolio, Correspondence Samples, and Instruction Samples section styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6B4D57;
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6B4D57;
+}
+
+/* Embed styles */
+embed {
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    nav ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+}
