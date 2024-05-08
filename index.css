@@ -95,3 +95,11 @@ embed {
         padding: 10px 0;
     }
 }
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
